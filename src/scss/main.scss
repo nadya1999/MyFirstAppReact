@@ -1,0 +1,62 @@
+/* pallete */
+
+$color-primary-0: #EF703D;	
+$color-primary-1: #FFAE8E;
+$color-primary-2: #FF9063;
+$color-primary-3: #D24B15;
+$color-primary-4: #A23307;
+
+$color-secondary-1-0: #EFA23D;	
+$color-secondary-1-1: #FFCE8E;
+$color-secondary-1-2: #FFBB63;
+$color-secondary-1-3: #D28015;
+$color-secondary-1-4: #A25E07;
+
+$color-secondary-2-0: #2E6D99;	
+$color-secondary-2-1: #77A8CB;
+$color-secondary-2-2: #4A83AC;
+$color-secondary-2-3: #155887;
+$color-secondary-2-4: #0B4168;
+
+$color-complement-0: #2AA470;	
+$color-complement-1: #75D2AA;
+$color-complement-2: #47B787;
+$color-complement-3: #0F9059;
+$color-complement-4: #056F41;
+
+/* my colors */
+
+$bg: #e6e6e6;
+$bg-light: rgb(243, 243, 243);
+$border-color: $bg;
+$shadow-color: $border-color;
+
+.menu {
+    background-color: $color-secondary-2-1;
+    li {
+        padding-left: 30px;
+    }
+}
+
+.header {
+    height: 100px;
+    background-color: $bg;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 1rem;
+}
+
+.messages {
+    height: 300px;
+    background-color: $bg-light;
+    border-radius: 1rem;
+    padding: 20px;
+    //border: solid $border-color;
+    //box-shadow: inset 0 0 20px 20px $shadow-color;
+}
+
+.footer {
+    height: 200px;
+    background-color: $color-secondary-2-1;
+}
+
